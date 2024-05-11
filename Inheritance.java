@@ -1,3 +1,5 @@
+import calc.ScCalc;
+
 class Inheritance{
     public static void main(String args[]){
         AdvCalc cal=new AdvCalc();
