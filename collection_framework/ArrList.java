@@ -1,10 +1,12 @@
 package collection_framework;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 
 public class ArrList {
+
     public static void main(String args[]){
         List <Integer> nums=new ArrayList<Integer>();
         nums.add(3);
@@ -35,5 +37,10 @@ public class ArrList {
         System.out.println(nums);
         // nums.clear();
         // System.out.println(nums);
+
+        Collections.sort(nums);
+        System.out.println(nums);
+        
+        
     }
 }
