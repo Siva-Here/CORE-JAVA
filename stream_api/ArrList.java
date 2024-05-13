@@ -6,13 +6,12 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Stream;
 
-
 public class ArrList {
 
     public static void main(String args[]){
         List <Integer> nums=Arrays.asList(10,30,12,40,20,3);
 
-        Stream <Integer>s1=nums.stream();
+        Stream <Integer>s1=nums.stream(); 
 
         // s1.forEach(n->System.out.println(n));
 
